@@ -192,9 +192,9 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBut",
+            botName: "basicBot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/IBCircuits/basicBot/master/lang/en.json",
           //  startupCap: 1, // 1-200
           //  startupVolume: 100, // 0-100
             startupEmoji: true, // true or false
