@@ -20,11 +20,12 @@
         return -1;
     };
 
-    var kill = function () {
+   /* var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.afkInterval);
         basicBot.status = false;
     };
+*/
 
     var storeToStorage = function () {
         localStorage.setItem("basicBotsettings", JSON.stringify(basicBot.settings));
