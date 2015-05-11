@@ -2240,7 +2240,7 @@
                 }
             },
 
-            killCommand: {
+            /*killCommand: {
                 command: 'kill',
                 rank: 'bouncer',
                 type: 'exact',
@@ -2256,9 +2256,9 @@
                         }, 1000);
                     }
                 }
-            },
-
-            languageCommand: {
+            },*/
+            
+languageCommand: {
                 command: 'language',
                 rank: 'manager',
                 type: 'startsWith',
