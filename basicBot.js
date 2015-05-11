@@ -1289,11 +1289,11 @@
            // API.sendChat('/cap ' + basicBot.settings.startupCap);
            // API.setVolume(basicBot.settings.startupVolume);
             $("#woot").click();
-            if (basicBot.settings.startupEmoji) {
+            /*if (basicBot.settings.startupEmoji) {
                 var emojibuttonoff = $(".icon-emoji-off");
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
-                }
+                }*/
                 API.chatLog(':smile: Emojis enabled.');
             }
             else {
