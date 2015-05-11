@@ -180,9 +180,9 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.3.4",
+        version: "1.0",
         status: false,
-        name: "basicBot",
+        name: "Dank Kush Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/IBCircuits/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -192,7 +192,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBoti",
+            botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/IBCircuits/basicBot/master/lang/en.json",
           //  startupCap: 1, // 1-200
