@@ -1233,11 +1233,11 @@
             var detect = function(){
                 if(roomURL != window.location.pathname){
                     clearInterval(Check)
-                    console.log("Killing bot after room change.");
+                //    console.log("Killing bot after room change.");
                     storeToStorage();
                     basicBot.disconnectAPI();
                     setTimeout(function () {
-                        kill();
+                   //   kill();
                     }, 1000);
                 }
             };
@@ -2252,7 +2252,7 @@
                         API.sendChat(basicBot.chat.kill);
                         basicBot.disconnectAPI();
                         setTimeout(function () {
-                            kill();
+                      //      kill();
                         }, 1000);
                     }
                 }
@@ -2729,7 +2729,7 @@
                         API.sendChat(basicBot.chat.reload);
                         storeToStorage();
                         basicBot.disconnectAPI();
-                        kill();
+                      //  kill();
                         setTimeout(function () {
                             $.getScript(basicBot.scriptLink);
                         }, 2000);
