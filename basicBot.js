@@ -192,7 +192,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "basicBo2t",
             language: "english",
             chatLink: "https://rawgit.com/IBCircuits/basicBot/master/lang/en.json",
           //  startupCap: 1, // 1-200
